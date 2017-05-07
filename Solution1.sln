@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{0C6C8DA1-9AC9-48A1-8077-AE64BFF5C7A4}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplication1", "src\ConsoleApplication1\ConsoleApplication1.fsproj", "{FCE89FC1-EA7D-434B-B808-F29BFF304D65}"
 EndProject
 Global
